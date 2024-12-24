@@ -53,27 +53,17 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
   assets:
     - assets/
 
-  uses-material-design: true
-
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
 
 
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: fonts/Poppins/Poppins-Regular.ttf
-        - asset: fonts/Poppins/Poppins-Light.ttf
 
-    - family: League Spartan
-      fonts:
-        - asset: fonts/Spartan/LeagueSpartan-Regular.ttf
-        - asset: fonts/Spartan/LeagueSpartan-Light.ttf
-          weight: 100
 
   # To add assets to your application, add an assets section, like this:
   # assets:
