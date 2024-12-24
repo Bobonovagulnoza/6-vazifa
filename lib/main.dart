@@ -554,13 +554,3 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// class RecentlyAddedRecipe extends StatelessWidget {
-//   const RecentlyAddedRecipe({super.key,required this.title,required this.image});
-//   final String title,image
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return const Placeholder();
-//   }
-// }
-
