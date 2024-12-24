@@ -76,7 +76,8 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: SingleChildScrollView(
+      body:
+      SingleChildScrollView(
           child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -540,12 +541,19 @@ class HomePage extends StatelessWidget {
                       SizedBox(
                         height: 10,
                       ),
-                      Image.asset("assets/a2.png"),
-                      Image.asset("assets/a1.png"),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Image.asset("assets/a2.png"),
+                          Image.asset("assets/a1.png"),
+                        ],
+                      )
+
                     ],
                   ),
                 ),
               ),
+
             ],
           )
         ],
